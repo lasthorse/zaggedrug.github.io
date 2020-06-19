@@ -1,0 +1,68 @@
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-dark {
+  background-color: transparent;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    background-color: white;
+  }
+}
+
+@media (max-width: 576px) {
+  #logo {
+    color: black;
+  }
+}
+
+.intro {
+  background-color: rgb(42,42,42);
+}
+
+.header-bg {
+  height: 400px;
+}
+
+@media (max-width: 300px) {
+  .header-bg {
+    width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-12.col-sm-12.col-md-5.col-lg-7.col-xl-7.text-center.text-sm-center.text-md-right.text-lg-right.align-self-center {
+    padding-top: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-12.col-sm-12.col-md-5.col-lg-7.col-xl-7.text-center.text-sm-center.text-md-right.text-lg-right.align-self-center {
+    padding-top: 0;
+  }
+}
+
+.article-img {
+  height: 300px;
+}
+
+.site-section {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.site-section h1 {
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #666;
+}
+
+#breed {
+  background-color: #eff7fb;
+}
+
