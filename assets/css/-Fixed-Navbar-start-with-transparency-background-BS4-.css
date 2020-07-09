@@ -4,10 +4,18 @@
   transition: background 0.6s ease;
 }
 
+@media (min-width: 992px) {
+  #transmenu.transparency {
+    background: transparent !important;
+    box-shadow: none;
+    border-color: transparent !important;
+  }
+}
+
 #transmenu.transparency {
-  background: transparent !important;
   box-shadow: none;
-  border-color: transparent !important;
+  border-color: transparent;
+  background-color: white;
 }
 
 #transmenu .navbar-brand {
@@ -16,21 +24,48 @@
   transition: all 0.6s ease;
 }
 
+@media (min-width: 992px) {
+  #transmenu.transparency .navbar-brand {
+    /*padding-top: 1.5rem;*/
+    /*padding-bottom: 1.5rem;*/
+    color: #fff !important;
+    border: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #transmenu.transparency .navbar-brand {
+    /*padding-top: 1.5rem;*/
+    /*padding-bottom: 1.5rem;*/
+    color: #fff !important;
+    border: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #transmenu.transparency .navbar-brand {
+    /*padding-top: 1.5rem;*/
+    /*padding-bottom: 1.5rem;*/
+    color: #fff !important;
+    border: none;
+  }
+}
+
 #transmenu.transparency .navbar-brand {
   /*padding-top: 1.5rem;*/
   /*padding-bottom: 1.5rem;*/
-  color: #fff !important;
+  color: #000000 !important;
   border: none;
 }
 
 #transmenu.transparency .nav-link, #transmenu.transparency .nav-link.active, #transmenu.transparency .nav-link:focus {
-  color: #fff;
+  color: #232323;
   border: none;
   opacity: 1;
 }
 
 #transmenu.transparency .nav-link:hover {
-  color: #fff;
+  color: #5f5e5e;
   opacity: .7;
 }
 
@@ -61,7 +96,7 @@
 }
 
 #transmenu.transparency .navbar-toggler span {
-  background: #fff;
+  background: #000000;
 }
 
 #transmenu .navbar-toggler span:nth-child(1), #transmenu .navbar-toggler span:nth-child(3) {
